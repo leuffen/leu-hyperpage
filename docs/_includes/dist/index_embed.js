@@ -1,0 +1,1 @@
+../../assets/dist/index_embed.js
