@@ -2,6 +2,7 @@
 layout: default
 permalink: /
 lang: de
+description: Some description for meta tags
 ---
 
 <!--
