@@ -1,12 +1,14 @@
 ---
 layout: 1_body
 ---
-<p class="card-text placeholder-wave m-5" style="width: 200px">
-  <span class="placeholder col-7"></span>
-  <span class="placeholder col-4"></span>
-  <span class="placeholder col-4"></span>
-  <span class="placeholder col-6"></span>
-  <span class="placeholder col-8"></span>
+<p id="loader" class="placeholder-wave" style="width: 200px;margin: 10px;position:fixed; top:100px" aria-hidden="true">
+  <span class="placeholder" style="width: 15%"></span>
+  <span class="placeholder" style="width: 75%"></span>
+  <span class="placeholder" style="width: 25%"></span>
+  <span class="placeholder" style="width: 65%"></span>
+  <span class="placeholder" style="width: 75%"></span>
+  <span class="placeholder" style="width: 15%"></span>
+  <span class="placeholder" style="width: 75%"></span>
 </p>
 <leu-content class="blend">
     {{ content }}
