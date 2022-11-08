@@ -3,10 +3,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
-        style_embed: './src/style_embed.scss',
-        style: './src/style.scss',
-        index: './src/index.ts',
-        index_embed: './src/index_embed.ts'
+        '_includes/dist/style_embed': './src/style_embed.scss',
+        'assets/dist/index': './src/style.scss',
+        'assets/dist/index': './src/index.ts',
+        '_includes/dist/index_embed': './src/index_embed.ts'
     },
     module: {
         rules: [
@@ -44,6 +44,6 @@ module.exports = {
 
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'docs/assets/dist'),
+        path: path.resolve(__dirname, 'docs/'),
     },
 };
