@@ -9,3 +9,16 @@
 @import "bootstrap/scss/reboot";
 @import "bootstrap/scss/helpers";
 
+leu-content {
+  height: 1500px;
+  display: block;
+  visibility: hidden;
+}
+
+.blend.loading {
+  opacity: 0;
+}
+.blend {
+  opacity: 1;
+  transition: opacity 500ms;
+}
