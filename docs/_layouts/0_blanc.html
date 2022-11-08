@@ -51,6 +51,7 @@ layout: null
         document.lang = '{{ page.lang }}';
         document.pid = '{{ page.pid }}'
     </script>
-    <!--link rel="stylesheet" href="assets/fonts/ubuntu.css"-->
+    <link rel="preload" href="assets/dist/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/fonts/ubuntu.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 </head>
 {{ content }}
